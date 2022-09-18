@@ -1,0 +1,1068 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	margin : 0px;
+	font-family : 'Work Sans', sans-serif;
+	font-size : 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family : 'Work Sans', sans-serif;
+	font-weight : 500px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+	display: block;
+	
+}
+#topBar{
+	width: 100%;
+	min-height:50px;
+	position: fixed;
+	top:0px;
+}
+
+
+
+
+.topBarMain {
+    background-color: #f5f5f5;
+    width: 100%;
+    position: fixed;
+    height: 49px;
+}
+
+section{
+	padding : 80px 0px;
+}
+
+.container {
+    width: 1140px;
+    
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+.topBarWrapper{
+	overflow: hidden;
+}
+
+.phone {
+    width: 200px;
+    float: left;
+	padding: 15px 15px;
+	border-left: 1px solid #ddd;
+	
+}
+.phone i {
+    color: #ff5200;
+}
+
+.email {
+    width: 738px;
+    float: left;
+	padding: 15px 15px;
+	border-left: 1px solid #ddd;
+}
+.email i {
+    color: #ff5200;
+}
+
+.social {
+    width: 140px;
+    float: left;
+	transition : .3s;
+}
+.social i:hover{
+	color: #ff5200;
+}
+
+.social a {
+    float: left;
+    display: block;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: #2b2b2b;
+}
+
+.social a:first-child {
+	border-left: 1px solid #ddd;
+}
+
+.primaryMenu {
+	background: white;
+	padding-top: -6px;
+	padding-bottom: -7px;
+	width: 100%;
+	min-height: 20px;
+	position: fixed;
+	top: 49px;
+}
+
+
+
+.primaryWrapper {
+    /* overflow: hidden; */
+    width: 100%;
+    display: table;
+}
+
+.logo {
+	margin-top: 32px;
+	width: 50px;
+	float: left;
+}
+
+.menu {
+    width: 714px;
+    float: right;
+}
+
+ul.mainMenuItem {
+    list-style: none;
+    float: right;
+    /* position: relative; */
+}
+
+
+ul.mainMenuItem li {
+    float: left;
+    position: relative;
+}
+ul.mainMenuItem li#searchBtn i {
+    margin-top:5px;
+}
+
+ul.mainMenuItem li a{
+	text-decoration: none;
+	font-family: oswald;
+	font-size: 15px;
+	display: block;
+	padding: 30px 25px;
+	color: black;
+	font-weight: 500;
+	transition : .5s;
+}
+
+ul.mainMenuItem li a:hover{
+	color : #ff5200;
+}
+
+#homeSlider{
+	margin-top: 165px;
+	background: url(image/slide-1.jpg);
+	background-repeat: no-repeat;
+	background-position: 20%;
+	padding: 0px;
+	width: auto;
+	/* height: 556px; */
+}
+
+.sliderContent {
+    color: white;
+	width : 600px;
+}
+
+.sliderContent h1 {
+    float: left;
+    margin-top: 110px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 39px;
+    line-height: 56px;
+    letter-spacing: -1.1;
+}
+
+.sliderContent p {
+    margin-bottom: 48px;
+    width: 395px;
+    font-weight: 600;
+    line-height: 25px;
+    widht: 100px;
+}
+
+button#sliderWorkButton {
+    color: white;
+    background: #ff5200;
+    padding: 15px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 100px;
+	cursor: pointer;
+	transition : .5s;
+}
+
+#sliderWorkButton:hover{
+	background: white;
+	color: #ff5200;
+	
+    
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    
+	cursor: pointer;
+	
+	
+}
+
+.sliderNav {
+    width: 54px;
+    margin: auto;
+    padding-bottom: 57px;
+}
+
+.sliderNav span {
+    width: 9px;
+    height: 9px;
+    background: transparent;
+    border: 4px solid #ddd;
+    display: block;
+    border-radius: 100%;
+	margin: 0px 5px;
+    float: left;
+    
+	cursor: pointer;
+}
+
+.sliderNav span:last-child{
+	background: #ff5200;
+	border-color: #ff5200;
+}
+
+#services{
+	background: #f5f6f6;
+}
+
+.sboxWrapper{
+	overflow: hidden;
+}
+
+
+.singleBox{
+	width: 212px;
+	text-align: center;
+	background: white;
+	padding: 15px;
+	float: left;
+	margin: 0px 21px;
+	transition: 0.3s;
+	border-radius: 2px;
+}
+
+.singleBox:hover{
+	background: #fb5200;
+	color: white;
+	cursor: pointer;
+}
+
+.singleBox:hover h2, .sboxLink a{
+	
+	color: white;
+}
+
+.singleBox:hover .sboxLink a{
+	
+	color: white;
+}
+
+.singleBox:hover .sboxIcon i{
+	
+	color: white;
+}
+
+#singleBox2{
+	background: #fb5200;
+	color: white;
+	
+}
+
+#singleBox2 .sboxIcon i{
+	background: #fb5200;
+	color: white;
+	
+}
+
+#singleBox2 h2{
+	
+	color: white;
+	
+}
+
+#singleBox2 a{
+	
+	color: white;
+	
+}
+
+.singleBox i.fa-long-arrow-right{
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+.sboxTitle h2 {
+    font-size: 22px;
+    letter-spacing: -1.1px;
+    color: #333;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 25px 0px;
+}
+
+.sboxTitle {
+    width: 176px;
+    text-align: center;
+    margin: auto;
+}
+
+.sboxIcon {
+    text-align: center;
+    margin: 30px 0px 25px 0px;
+    font-size: 30px;
+    color: #fb5200;
+	
+}
+
+
+
+.sboxDesc {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.sboxLink{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.sboxLink a {
+    /* text-align: center; */
+    text-decoration: none;
+    color: #fb5200;
+    font-weight: 600;
+}
+
+.teamContents {
+    overflow: hidden;
+	display: flex;
+	gap: 40px;
+}
+
+.teamImage {
+    width: 550px;
+}
+
+.teamImage img{
+	max-width: 100%;
+}
+
+.teamDetails {
+    width: 550px;
+}
+
+.titleDecs h2 {
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: 23px;
+}
+
+
+.titleDecs p {
+    
+    line-height: 25px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.teamFacilities ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+	width: 275px;
+	
+}
+
+.teamFacilities{
+	display: flex;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+.teamFacilities ul li {
+    line-height: 40px;
+    font-weight: 500;
+	
+
+}
+
+.teamFacilities ul li a {
+    text-decoration: none;
+    color: black;
+	transition: 0.3s;
+}
+
+.teamFacilities ul li:hover a {
+    
+    color: #fb5200;
+}
+.teamFacilities ul li:hover i {
+    
+    color: #fb5200;
+}
+
+.teamFacilities ul li a i {
+    font-size: 12px;
+	color: #444;
+	margin-right: 7px;
+	transition: 0.3s;
+}
+
+.teamContentBtm a {
+	text-decoration: none;
+	color: white;
+	background: #fb5200;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+.teamContentBtm {
+	margin-top: 34px;
+}
+.teamContentBtm a:hover {
+	
+	color: white;
+	background: #444;
+	
+}
+
+#whyChooseUs {
+	background:linear-gradient(#00000074,#00000074), url(image/why-choose-us1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.iconWrapper{
+	overflow: hidden;
+	
+	
+}
+.singleIcons{
+	width: 250px;
+	text-align: center;
+	color: white;
+	float: left;
+	margin-right: 30px;
+	
+	
+}
+
+.sIcon {
+    font-size: 40px;
+}
+
+.singleIcons h2 {
+    font-size: 45px;
+	font-weight: 900;
+	font-family: arial black;
+	margin: 2px;
+	margin-top: 20px;
+}
+
+.singleIcons h4 {
+    font-size: 15px;
+}
+
+#blogPosts{
+	background: #f5f6f6;
+}
+
+.secTitle {
+    text-align: center;
+}
+
+
+.secTitle h2 {
+    font-size: 42px;
+    margin-bottom: 17px;
+}
+
+.secTitle h2:after {
+    content: "";
+    position: absolute;
+    background: #fb5200;
+    width: 70px;
+    margin-top: 49px;
+    transform: translate(-286%);
+    border-bottom: 4px solid #fb5200;
+    font-family:
+    -webkit-body;
+}
+
+.secTitle p {
+    width: 438px;
+    margin: auto;
+    line-height: 25px;
+    font-size: 18px;
+    color: #666;
+	margin-bottom: 35px;
+}
+
+.singlePost {
+    width: 248px;
+    overflow: hidden;
+    float: left;
+    /* width: 100%; */
+    margin-right: 37px;
+}
+
+.singlePost:last-child {
+    
+    margin-right: 0px;
+}
+.postWrapper {
+    overflow: hidden;
+}
+.singlePost img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.postInfo p {
+    margin-top: 10px;
+    color: #666;
+    line-height: 23px;
+}
+
+
+.secTitle .priceTitle:after {
+    content: "";
+    position: absolute;
+    background: #fb5200;
+    width: 70px;
+    margin-top: 49px;
+    transform: translate(-230%);
+    border-bottom: 4px solid #fb5200;
+    font-family:
+    -webkit-body;
+}
+
+.singleTable {
+    width: 296px;
+    overflow: hidden;
+    float: left;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    padding: 30px;
+    margin-right: 33px;
+}
+.singleTable:last-child {
+    
+    margin-right: 0px;
+}
+
+.singleTable h3 {
+    font-size: 25px;
+}
+
+.singleTable h1 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: arial black;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.singleTable h1 span {
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: Arial;
+    font-weight: 700;
+    
+}
+
+.singleTable ul {
+    list-style: none;
+    
+}
+
+.singleTable ul li {
+    line-height: 38px;
+    color: #776;
+    
+}
+
+.singleTable ul li i {
+    font-size: 13px;
+    color: #fb5200;
+    
+}
+
+button#tableGetStarted {
+    background: #fb5200;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    font-weight: 800;
+    font-size: 15px;
+    margin: 21px 0px;
+}
+
+button#tableGetStarted:hover {
+    background: #333;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 13px 25px;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    font-weight: 800;
+    font-size: 15px;
+    margin: 21px 0px;
+}
+
+.tableList{
+    overflow: hidden;
+}
+
+.idealleftImg{
+    background: url(./image/s02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+section#ideas {
+    padding: 0px;
+    overflow: hidden;
+    height: 397px;
+    margin-bottom: 30px;
+}
+
+
+
+.rightContent {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    background: #222222;
+    color: white;
+    padding-bottom: 41px;
+}
+
+.rContentTitle{
+    padding: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 39px;
+}
+
+.rContentTitle h1 {
+    font-size: 34px;
+    
+}
+
+.rContentIcons{
+    margin-left: 70px;
+    /* float: left; */
+    padding-bottom: 70px;
+}
+
+.rSingleIcon{
+    width: 328px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.rIcon{
+    width: 64px;
+    float: left;
+    overflow: hidden;
+    font-size: 40px;
+    color: #fb5200;
+}
+
+.riconTitle {
+    width: 256px;
+    float: right;
+    overflow: hidden;
+}
+
+.riconTitle h2 {
+    font-size: 16px;
+    margin-bottom: 7px;
+    margin-top: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.riconTitle h2:hover {
+    color: #fb5200
+}
+.riconTitle p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    word-spacing: 2px;
+}
+
+footer#footer {
+    background-color: 1a1a1a;
+    padding-top: 200px;
+}
+
+.copyrightContainer {
+    overflow: hidden;
+    color: #999;
+    border-top: 1px solid #333;
+}
+
+.copyrightContainer .container {
+    overflow: hidden;
+}
+
+.copyrightText {
+    width: 420px;
+    float: left;
+    padding-top: 29px;
+}
+
+.copyrightMenu {
+    width: 570px;
+    float: right;
+}
+
+.copyrightMenu ul {
+    list-style: none;
+    float: right;
+    overflow: hidden;
+}
+
+.copyrightMenu li {
+    float: left;
+}
+
+.copyrightMenu ul li a {
+    color: #999;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+}
+.fboxWrapper {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.fbox {
+    width: 250px;
+    float: left;
+    margin-right: 40px;
+}
+
+.fbox:last-child {
+    margin-right: 0px;
+}
+
+.fbox h3 {
+    color: #999;
+    margin-bottom: 19px;
+}
+
+.fbox {
+    color: #999;
+}
+
+.fbox p {
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+span#contacts {
+    margin-bottom: 36px;
+    display: block;
+    font-size: 14px;
+}
+
+span#contacts i {
+    color: #fb5200;
+    margin-right: 10px;
+    
+    
+}
+
+ul#uflinks {
+    list-style: none;
+    margin-left: -39px;
+    margin-top: -12px;
+}
+
+ul#uflinks li {
+    line-height: 25px;
+}
+
+ul#uflinks li a {
+    color: #999;
+    text-decoration: none;
+    display: block;
+    padding: 7px 0px;
+    border-bottom: 1px dashed #353535;
+}
+
+ul#uflinks  li a i {
+    font-size: 10px;
+}
+
+ul#uflinks li:last-child a {
+    border-bottom: 0px;
+}
+
+.fRpost {
+    overflow: hidden;
+    margin-bottom: 27px;
+}
+
+.fRpostMeta {
+    width: 40px;
+    background: #313131;
+    padding: 13px 10px;
+    color: white;
+    border-radius: 3px;
+    float: left;
+    margin-right: 10px;
+}
+
+.fRpostTitle {
+    width: 175px;
+    float: right;
+    /* font-size: 11px; */
+}
+
+.fRpostTitle h3 {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.fRpostMeta {
+    text-align: center;
+}
+
+.fRpostMeta span:first-child {
+    margin-bottom: 6px;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.fRpostTitle a {
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.fRpostMeta span:last-child{
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 12px;
+}
+
+.ficons a {
+    width: 19px;
+    background: #666;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.subsBoxesWrapper {
+    overflow: hidden;
+    background-color: #fb5200;
+    border-radius: 3px;
+    padding-bottom: 16px;
+}
+
+.subBoxSingle {
+    width: 320px;
+    float: left;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.subBoxSingle h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.inputBoxes {
+    
+    position: relative;
+}
+
+.inputBoxes input:first-child {
+    width: 80%;
+    border: none;
+    padding: 13px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    font-family: Oswald;
+    letter-spacing: 1;
+}
+
+input#subssubmit {
+    padding: 14px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 1;
+    width: 110px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.subBoxSingle {
+    color: white;
+}
+
+.subsFollowIcons {
+    overflow: hidden;
+}
+
+.subsFollowIcons a {
+    width: 30px;
+    float: left;
+    /* display: block; */
+    border: 1px solid white;
+    display: grid;
+    border-radius: 100%;
+    height: 30px;
+    place-items: center;
+    text-decoration: none;
+    margin-right: 16px;
+    color: white;
+}
+
+.subsFollowIcons a:hover {
+    color: #333;
+    background: white;
+}
+
+.subBoxSingle p {
+    margin: 0px;
+}
+
+section#subscribe {
+    position: relative;
+    margin-bottom: -161px;
+}
+
+ul.subMenu {
+    list-style: none;
+    width: 180px;
+    position: absolute;
+    top: 100px;
+    background: white;
+    border-top: 1px solid #ddd;
+    padding: 25px;
+    visibility: hidden;
+    transform: scaleY(0);
+    transition: 0.3s;
+    transform-origin: top;
+}
+
+ul.subMenu li {
+    float: none;
+    position: relative;
+}
+
+ul.subMenu li a {
+    padding: 10px;
+    padding-left: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #333;
+    transition: 0.6s;
+}
+
+
+
+ul.subMenu li a:before {
+    content: "";
+    display: inline-block;
+    background: #ff5200;
+    width: 0px;
+    height: 2px;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: 0.6s;
+}
+ul.subMenu li:hover a:before{
+    width: 20px;
+}
+
+ul.mainMenuItem li:hover ul.subMenu{
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+ul.subMenu2 {
+    list-style: none;
+    width: 180px;
+    position: absolute;
+    top:-4px;
+    left: 205px;
+    background: white;
+    border-left: 1px solid #ddd;
+    padding: 25px;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: 0.3s;
+    transform-origin: left;
+}
+
+ul.subMenu li:hover ul.subMenu2 {
+    visibility: visible;
+    transform: scalex(1);
+}
+
+ul.subMenu2 li a:before {
+    content: "";
+    display: inline-block;
+    background: #ff5200;
+    width: 0px !important;
+    height: 2px;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: 0.6s;
+}
+
+ul.subMenu2 li:hover a:before{
+    width: 20px !important;
+}
